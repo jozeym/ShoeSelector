@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- use the javscript file -->
+		<script type="text/javascript" src="index.js"></script>
+	</head>
+	<body>
+		
+		<h2>Shoe Selection</h2>
+		<p>This page allows you to choose a shoe type and colour, and output the price of the shoe.</p>
+		<p>If you don't know your shoe size, you can enter your foot length in centimeters and find out!</p>
+		
+		<!-- shoe type drop down -->
+		<label for="type">Choose a shoe type:</label>
+		<select name="shoetype" id="shoetype">
+			<option id="pleasechoose" value="Please Choose">Please Choose</option>
+			<option id="sandal" value="Sandal">Sandal</option>
+			<option id="sport" value="Sport shoe">Sport shoe</option>
+			<option id="boot" value="Boot">Boot</option>
+			<option id="heel" value="High Heel">High Heel</option>
+		</select>
+
+		<p id="type"></p>
+		
+		<!-- shoe colour input -->
+		<p>Please choose a color:</p>
+		<input id="shoecolor"><br/>
+		<p id="color"></p>
+		
+		<!-- foot length input -->
+		<p>Please input foot length:</p>
+		<input id="cms">
+		
+		<!-- submit button to submit the inputs and execute the javascript -->
+		<button onclick="myFunction()" id="myFunction">Submit</button>
+		
+		<!-- output the size and price here -->
+		<p id="size"></p>
+		<p id="price"></p>
+		
+	</body>
+</html>
