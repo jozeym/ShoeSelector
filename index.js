@@ -1,6 +1,3 @@
-var button = document.getElementById('myFunction');
-button.addEventListener('click', myFunction);
-
 function myFunction() {
 	//Get value of select "shoetype"
 	let shoetype = document.getElementById("shoetype").value;
